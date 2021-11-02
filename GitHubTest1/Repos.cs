@@ -12,9 +12,14 @@ namespace GitHubTest1
 
         public Repos()
         {
-            Counter = 10;
+            Counter = 0;
             textString = "Hello world!";
 
+        }
+
+        public void counterUp()
+        {
+            Counter++;
         }
     }
 }
