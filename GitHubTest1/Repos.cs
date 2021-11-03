@@ -13,6 +13,7 @@ namespace GitHubTest1
         public Repos()
         {
             Counter = 0;
+
             textString = "Hello world!";
 
         }
